@@ -4,10 +4,12 @@ import Contact from "./sections/Contact";
 import TechStack from "./sections/TechStack";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
+import Projects from './sections/Projects'
 import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+
 
 const App = () => (
   <>
@@ -15,6 +17,7 @@ const App = () => (
     <Hero />
     <LogoShowcase />
     <FeatureCards />
+    <Projects />
     <Experience />
     <TechStack />
     <Testimonials />
