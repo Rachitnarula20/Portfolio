@@ -20,7 +20,6 @@ const App = () => (
     <Projects />
     <Experience />
     <TechStack />
-    <Testimonials />
     <Contact />
     <Footer />
   </>
