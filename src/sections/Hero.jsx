@@ -6,6 +6,7 @@ import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
 import EarthCanvas from "../components/Earth";
+import { Particles } from "../components/Particles";
 
 const Hero = () => {
   useGSAP(() => {
@@ -67,6 +68,13 @@ const Hero = () => {
         {/* RIGHT: 3D Model or Visual */}
         <figure>
           <div className="hero-3d-layout">
+            <Particles
+                className="absolute inset-0 z-0"
+                quantity={100}
+                ease={80}
+                color={"#ffffff"}
+                refresh
+            />
             <EarthCanvas />
           </div>
         </figure>

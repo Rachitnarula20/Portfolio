@@ -16,7 +16,7 @@ const Project = ({ title, description, subDescription, href, image, tags }) => {
                 </div>
                 <button onClick={() => setIsHidden(true)} className="flex items-center gap-1 cursor-pointer hover:animation">
                     Read More
-                    <img src="assets/arrow-right.svg" alt="arrow" className="w-5" />
+                    <img src="/images/arrow-right-projects.svg" alt="arrow" className="w-5" />
                 </button>
             </div>
             <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />

@@ -144,42 +144,48 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review:
+      "Rachit has been instrumental in building full-stack features at Insybit. His AI dashboard work showcased both his engineering versatility and eye for scalable performance.",
+    imgPath: "/images/logo-insybit.png",
+    logoPath: "/images/logo-insybit.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "March 2024 – Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built scalable frontend and backend systems using React.js, Next.js, TypeScript, Tailwind CSS, Node.js, and MongoDB.",
+      "Developed an AI-powered call history dashboard with filters, transcript expansion, and CSV export.",
+      "Optimized REST API usage by eliminating redundant calls and enhancing MongoDB indexing.",
+      "Deployed full-stack solutions on Vercel and Render, improving release velocity and team collaboration."
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review:
+      "Rachit's ownership and frontend expertise helped us ship Owltics' official site with high performance. His state management integration and backend contributions added tremendous value.",
+    imgPath: "/images/logo-owltics.png",
+    logoPath: "/images/logo-owltics.png",
+    title: "Full Stack Developer Intern",
+    date: "October 2023 – January 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed Owltics’ official website using React, Next.js, Tailwind CSS, and Node.js.",
+      "Built and optimized REST APIs with Express.js and MongoDB.",
+      "Integrated Redux for efficient state management, reducing load time by 30%.",
+      "Enhanced frontend responsiveness and backend data handling."
+    ],
+  },
+  {
+    review:
+      "Rachit’s contributions to the TNM Fest website made a noticeable impact on user experience and backend reliability. He brought thoughtful performance optimizations to the table.",
+    imgPath: "/images/logo-mait.png",
+    logoPath: "/images/logo-mait.png",
+    title: "Full Stack Developer",
+    date: "January 2023",
+    responsibilities: [
+      "Created the TNM Fest website using HTML, CSS, Joomla, Node.js, and Express.js.",
+      "Implemented secure JWT-based authentication and improved DB query performance.",
+      "Reduced page load time under 2 seconds using lazy loading and caching.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
@@ -261,91 +267,85 @@ const socialImgs = [
 ];
 
 const myProjects = [
-    {
-        id: 1,
-        title: "UpWatch",
-        description: "A real-time website uptime monitoring tool.",
+  {
+        id: 4,
+        title: "E-learning Platform",
+        description: "A full-stack platform for online learning with payment integration.",
         subDescription: [
-            "Developed a web application to monitor uptime and performance of websites in real time.",
-            "Utilized JavaScript and asynchronous functions to fetch site status at regular intervals.",
-            "Implemented alert mechanisms that notify users when a site goes down or response time exceeds thresholds.",
-            "Added logging and analytics features to track uptime history over time.",
-            "Built a clean, responsive UI to allow users to easily configure and view monitoring data."
+            "Built using MERN stack with secure JWT authentication and Razorpay integration.",
+            "Developed RESTful APIs for user registration, login, and course transactions.",
+            "Implemented backend optimizations using MongoDB indexes and caching.",
+            "Ensured UI responsiveness for seamless learning experience across devices."
         ],
-        href: "https://up-watch-client.vercel.app",
+        href: "https://e-learning-platform-roan.vercel.app/",
         logo: "",
-        image: "/assets/projects/upwatch.png",
+        image: "/images/e-learning.png",
         tags: [
-            { id: 1, name: "JavaScript", path: "assets/logos/javascript.svg" },
-            { id: 2, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
-            { id: 3, name: "React", path: "assets/logos/react.svg" },
-            { id: 4, name: "Node.js", path: "/assets/logos/nodejs.svg" },
-            { id: 5, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+            { id: 1, name: "React", path: "/assets/logos/react.svg" },
+            { id: 2, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+            { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+            { id: 4, name: "Razorpay", path: "/assets/logos/js.svg" }
         ]
+    },
+    
+    {
+      id: 5,
+      title: "Dynamic Event Calendar",
+      description: "An interactive calendar for managing and displaying events.",
+      subDescription: [
+        "Built using React, Vite, and Tailwind CSS with smooth month navigation.",
+        "Implemented JWT-based authentication for secure event editing.",
+        "Used localStorage to persist user data without backend reliance.",
+        "Designed for performance with fast rendering and minimal API calls."
+      ],
+      href: "https://dynamic-event-calendar-application-main-indol.vercel.app/",
+      logo: "",
+      image: "images/dynamic-calendar.png",
+      tags: [
+        { id: 1, name: "React", path: "/assets/logos/react.svg" },
+        { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+        { id: 3, name: "JWT", path: "/assets/logos/js.svg" }
+      ]
     },
     {
         id: 2,
-        title: "RealEstate",
-        description: "A comprehensive real estate management platform.",
+        title: "WSI Viewer",
+        description: "A React-based Whole Slide Image (WSI) Viewer for pathology imaging.",
         subDescription: [
-            "Built a full-stack application using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
-            "Implemented secure user authentication and role-based access control using JWT.",
-            "Designed a property listing system with advanced search and filter functionality.",
-            "Added features for agents and buyers to manage, bookmark, and inquire about listings.",
-            "Created a responsive design ensuring usability across all device types."
+            "Built a custom slide viewer using React and OpenSeadragon for deep zoom into high-resolution pathology images.",
+            "Implemented zoom, pan, and navigation controls for precise image examination.",
+            "Used state management for synchronized views and user interactions.",
+            "Tailored UI using Tailwind CSS for responsiveness and clarity in medical use cases."
         ],
-        href: "https://real-estate-rk3y.vercel.app",
+        href: "https://wsi-viewer-pink.vercel.app/",
         logo: "",
-        image: "/assets/projects/real_estate.png",
+        image: "/images/wsi-viewer.png",
         tags: [
-            { id: 1, name: "JavaScript", path: "assets/logos/javascript.svg" },
-            { id: 2, name: "TailwindCSS", path: "assets/logos/tailwindcss.svg" },
-            { id: 3, name: "React", path: "assets/logos/react.svg" },
-            { id: 4, name: "Node.js", path: "/assets/logos/nodejs.svg" },
-            { id: 5, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+            { id: 1, name: "React", path: "/assets/logos/react.svg" },
+            { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+            { id: 3, name: "OpenSeadragon", path: "/assets/logos/js.svg" }
         ]
     },
     {
         id: 3,
-        title: "Daily-Journal",
-        description: "A daily journaling web application.",
+        title: "Car-Rent App",
+        description: "A car rental application for booking and exploring vehicles.",
         subDescription: [
-            "Built a minimalistic journaling app where users can log daily thoughts and reflections.",
-            "Used HTML, CSS, and JavaScript to create a smooth writing experience.",
-            "Implemented create, edit, and delete functionalities with persistent local storage.",
-            "Focused on clean UI/UX design to encourage daily usage.",
-            "Ensured mobile responsiveness for use on-the-go."
+            "Developed a responsive car rental web app using React and Tailwind CSS.",
+            "Integrated routing and vehicle detail pages with search and filter features.",
+            "Utilized reusable components for UI consistency and scalability.",
+            "Included dummy data and future-ready structure for backend integration."
         ],
-        href: "https://daily-journal-91ol.onrender.com",
+        href: "https://car-rent-eosin.vercel.app/",
         logo: "",
-        image: "/assets/projects/daily_journal.png",
+        image: "/images/car-rental.png",
         tags: [
-            { id: 1, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-            { id: 2, name: "HTML", path: "/assets/logos/html5.svg" },
-            { id: 3, name: "CSS", path: "/assets/logos/css3.svg" }
-        ]
+            { id: 1, name: "React", path: "/assets/logos/react.svg" },
+            { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+          ]
     },
     {
-        id: 4,
-        title: "Fighting-Game",
-        description: "An interactive browser-based fighting game.",
-        subDescription: [
-            "Created a 2D fighting game using vanilla JavaScript and HTML canvas.",
-            "Implemented character controls, health mechanics, and collision detection.",
-            "Designed pixel-art style fighters with animations for attacks and movements.",
-            "Added a round-based scoring system and win/loss logic.",
-            "Ensured smooth frame updates and optimized for performance on browsers."
-        ],
-        href: "https://fighting-game-lemon.vercel.app",
-        logo: "",
-        image: "/assets/projects/fighting_game.png",
-        tags: [
-            { id: 1, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-            { id: 2, name: "HTML Canvas", path: "/assets/logos/html5.svg" }
-        ]
-    },
-    {
-        id: 5,
+        id: 1,
         title: "Forest-Monitoring-System",
         description: "A web application for monitoring global forest conditions.",
         subDescription: [
@@ -357,13 +357,15 @@ const myProjects = [
         ],
         href: "https://forest-monitoring-system.vercel.app",
         logo: "",
-        image: "/assets/projects/forest_monitoring.png",
+        image: "/images/forest-monitoring.png",
         tags: [
             { id: 1, name: "React", path: "/assets/logos/react.svg" },
             { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
         ]
-    }
+    },
 ];
+
+
 
 
 export {
